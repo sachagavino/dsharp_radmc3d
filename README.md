@@ -11,14 +11,14 @@ $python dsharp_radmc3d.py -ice 0.2 -amin 5e-3 -amax 1e3 -nlam 250 -filename myfi
 ### Parameters:
 ```ice```: ice fraction should be 0.0 or 0.2.
 
-```amin```: ice fraction should be 0.0 or 0.2.
+```amin```: min size value in microns.
 
-```amin```: ice fraction should be 0.0 or 0.2.
+```amax```: max size value in microns.
 
-```amin```: ice fraction should be 0.0 or 0.2.
+```nlam```: number of wavelengths. Typically between 200 and 250.
 
-```amin```: ice fraction should be 0.0 or 0.2.
+```filename```: choose a filename. Please do not include an underscore (_). Example, if filename = 'myfile', the output filename will be: dustkappa_dsharp-myfile.inp 
 
-```amin```: ice fraction should be 0.0 or 0.2.
+```scatmat```: True or False. If True, then the matrix elements will be written in the dustkapscatmat_*.inp file. Default value is False.
 
-```amin```: ice fraction should be 0.0 or 0.2.
+```fig```: True or False. If True, then a figure is gerenated after the opacities are computed.
