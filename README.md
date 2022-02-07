@@ -1,6 +1,6 @@
 # dsharp to radmc3d
 
-This routine generates dustkappa*.inp and dustscatmat*.inp files from dsharp_opac package (Birnstiel et al. 2018).
+This routine generates dustkappa*.inp and dustscatmat*.inp files using dsharp_opac package (Birnstiel et al. 2018).
 
 ### Example:
 
