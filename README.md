@@ -2,7 +2,8 @@
 
 This routine generates dustkappa*.inp and dustscatmat*.inp files from dsharp_opac package (Birnstiel et al. 2018).
 
-### How to:
+### Example:
 
-In a command line, for instance, write:
-#### $python dsharp_radmc3d.py 
+```
+$python dsharp_radmc3d.py
+``` 
