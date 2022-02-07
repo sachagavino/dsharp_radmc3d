@@ -7,3 +7,6 @@ This routine generates dustkappa*.inp and dustscatmat*.inp files from dsharp_opa
 ```
 $python dsharp_radmc3d.py -ice 0.2 -amin 5e-3 -amax 1e3 -nlam 250 -filename myfile -scatmat True -fig True
 ``` 
+
+### Parameters:
+```ice```
