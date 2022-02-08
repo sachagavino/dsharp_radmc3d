@@ -14,6 +14,8 @@ This routine generates dustkappa*.inp and dustscatmat*.inp files using dsharp_op
 
 ```filename```: choose a filename. Please do not include an underscore (_). Example, if filename = 'myfile', the output filename will be: dustkappa_dsharp-myfile.inp 
 
+```extrapol```: True or False. Extrapolate for large grains to reduce computation time. Default is True.
+
 ```scatmat```: True or False. If True, then the matrix elements will be written in the dustkapscatmat_*.inp file. Default value is False. WARNING: don't use True for the moment!
 
 ```fig```: yes, no, only. If yes, then a figure is gerenated after the opacities are computed. If only, then the opacity is not computed and only a figure is displayed.
