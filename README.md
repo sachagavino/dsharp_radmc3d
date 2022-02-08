@@ -2,11 +2,6 @@
 
 This routine generates dustkappa*.inp and dustscatmat*.inp files using dsharp_opac package (Birnstiel et al. 2018).
 
-### Example 1:
-
-```
-$python dsharp_radmc3d.py -ice 0.2 -amin 5e-3 -amax 1e3 -nlam 250 -filename myfile -scatmat False -fig yes
-``` 
 
 ### Parameters:
 ```ice```: ice fraction should be 0.0 or 0.2.
@@ -22,3 +17,17 @@ $python dsharp_radmc3d.py -ice 0.2 -amin 5e-3 -amax 1e3 -nlam 250 -filename myfi
 ```scatmat```: True or False. If True, then the matrix elements will be written in the dustkapscatmat_*.inp file. Default value is False. WARNING: don't use True for the moment!
 
 ```fig```: yes, no, only. If yes, then a figure is gerenated after the opacities are computed. If only, then the opacity is not computed and only a figure is displayed.
+
+### Example 1:
+
+```
+$python dsharp_radmc3d.py -ice 0.2 -amin 5e-3 -amax 1e3 -nlam 250 -filename myfile -scatmat False -fig yes
+``` 
+--> dust opacities are computed with ice fraction of 0.2, a maximum grain size = 1 mm, 250 wavelengths and a figure of opacity and scattering cross-sections is displayed at the end.
+
+### Example 2:
+
+```
+$python dsharp_radmc3d.py -fig only
+``` 
+--> The user assume opacity tables exist and wants to display a figure.
