@@ -19,6 +19,6 @@ $python dsharp_radmc3d.py -ice 0.2 -amin 5e-3 -amax 1e3 -nlam 250 -filename myfi
 
 ```filename```: choose a filename. Please do not include an underscore (_). Example, if filename = 'myfile', the output filename will be: dustkappa_dsharp-myfile.inp 
 
-```scatmat```: True or False. If True, then the matrix elements will be written in the dustkapscatmat_*.inp file. Default value is False.
+```scatmat```: True or False. If True, then the matrix elements will be written in the dustkapscatmat_*.inp file. Default value is False. WARNING: don't use True for the moment!
 
 ```fig```: True or False. If True, then a figure is gerenated after the opacities are computed.
