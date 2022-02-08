@@ -6,9 +6,9 @@ This routine generates dustkappa*.inp and dustscatmat*.inp files using dsharp_op
 ### Parameters:
 ```ice```: ice fraction should be 0.0 or 0.2.
 
-```amin```: min size value in microns.
+```amin```: min dust size value in microns.
 
-```amax```: max size value in microns.
+```amax```: max dust size value in microns.
 
 ```nlam```: number of wavelengths. Typically between 200 and 250.
 
