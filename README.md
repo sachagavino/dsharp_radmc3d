@@ -30,4 +30,4 @@ $python dsharp_radmc3d.py -ice 0.2 -amin 5e-3 -amax 1e3 -nlam 250 -filename myfi
 ```
 $python dsharp_radmc3d.py -fig only
 ``` 
---> The user assume opacity tables exist and wants to display a figure.
+--> Opacity tables already exist and the user wants to display the figure.
