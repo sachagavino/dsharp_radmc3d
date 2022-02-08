@@ -25,7 +25,7 @@ This routine generates dustkappa*.inp and dustscatmat*.inp files using dsharp_op
 ```
 $python dsharp_radmc3d.py -ice 0.2 -amin 5e-3 -amax 1e3 -nlam 250 -filename myfile -scatmat False -fig yes
 ``` 
---> dust opacities are computed with ice fraction of 0.2, a maximum grain size = 1 mm, 250 wavelengths and a figure of opacity and scattering cross-sections is displayed at the end.
+--> dust opacities are computed with ice fraction of 0.2, a maximum grain size of 1 mm, 250 wavelengths and a figure of opacity and scattering cross-sections is displayed at the end.
 
 ### Example 2:
 
